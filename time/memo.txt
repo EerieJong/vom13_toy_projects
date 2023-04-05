@@ -1,0 +1,5 @@
+완성 사이트 : https://www.dabipyeung.com/step7/
+
+참고 사이트 : 
+- 제이쿼리 : https://jquery.com/
+- 구글폰트 : https://fonts.google.com/
