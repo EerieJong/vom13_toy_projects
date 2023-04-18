@@ -1,0 +1,5 @@
+www.dabipyeung.com/soaply
+
+수정사항 
+1. special offers 상품 설명글 반응형 글 행수 줄이기 //
+2. json cors 오류 수정 //
