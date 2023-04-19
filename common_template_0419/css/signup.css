@@ -1,0 +1,110 @@
+/********** Google Font / inter, Noto Sans Korean **********/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Noto+Sans+KR:wght@100;300;400;500&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', 'Roboto', sans-serif;
+  background: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  display: block;
+}
+
+em,
+strong,
+b {
+  font-style: normal;
+  font-weight: normal;
+}
+
+input,
+input::placeholder {
+  font-family: 'Noto Sans KR', 'Roboto', sans-serif;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper.signin header{top:0; left:0; position:fixed;background:#fff; border-bottom:1px solid var(--color-gray-d);}
+
+.form {
+  width: 50%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+
+.form > h2 {
+  font-weight: 500;
+  color: #333;
+  position: relative;
+  width: 6.25rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.form > p {
+  width: 100%;
+  height: auto;
+}
+
+.form > p > input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  outline: 0;
+}
+
+.form .smbtn > input {
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form .line {
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  margin: 0.5rem 0;
+}
+
+.form .is-member {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: #333;
+}
+
+.form .is-member a {
+  color: #333;
+  text-decoration: underline;
+}
